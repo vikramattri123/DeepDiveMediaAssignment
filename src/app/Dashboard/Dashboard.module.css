@@ -1,0 +1,21 @@
+.cardContent{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 5em;
+    padding: 2em 2em;
+    margin-top: 2em;
+}
+
+.Cell {
+    display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-width: 80px;
+gap:2em;
+}
+
+.Label {
+   font-weight: bold;
+   font-size: 16px;
+}

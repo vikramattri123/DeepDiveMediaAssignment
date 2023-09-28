@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.Banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:1.5em;
+}
+.bannerImage {
+    border-radius: 50%;
+    height:500px
+}

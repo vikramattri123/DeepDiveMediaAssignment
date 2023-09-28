@@ -1,0 +1,42 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+ }
+
+ .service:last-child {
+    margin-bottom: 2em;
+ }
+
+.serviceImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.servicesBanner {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 5em;
+}
+
+
+.serviceDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:.5em;
+}
+
+.serviceDescription span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:#A75E31;
+}
+
+.serviceDescription p {
+    font-size: 1em;
+    color:#A75E31;
+}

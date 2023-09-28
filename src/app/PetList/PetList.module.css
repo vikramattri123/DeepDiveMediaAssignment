@@ -1,0 +1,29 @@
+.cardContent{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1em 2em;
+    row-gap: 3em;
+}
+
+.Cell {
+    display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+min-width: 80px;
+gap:2em;
+   
+}
+
+
+.buttonStyle {
+    width:180px;
+    background-color: #E4DDD9;
+    font-size: 20px;
+    color:none;
+    outline: none;
+    border: none;
+    padding:12px 8px;
+    cursor: 'pointer';
+    letter-spacing: .1em;
+  }
